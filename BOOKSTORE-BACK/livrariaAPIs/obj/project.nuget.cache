@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LY7LDDlDBCeIP2Z5eTYhpQK/h8xptcfgNJKE37wcedZIo70cmVxm9uLTHRP2/u8lB3RfD9Mlcb5OfeV+D+v7rw==",
+  "dgSpecHash": "C/BUvDZ0I3XM6jldpOibqRzcObawaZzYv+bqKlre5mL6ocANt53Bg+vjN47cr9V8gJZK3BLD8JXiRS0HHnIdlA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\afnnu\\source\\repos\\livrariaAPIs\\BackEnd\\livrariaAPIs\\livrariaAPIs.csproj",
+  "projectFilePath": "C:\\Users\\afnnu\\source\\repos\\Bookstore\\BOOKSTORE-BACK\\livrariaAPIs\\livrariaAPIs.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\afnnu\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\afnnu\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

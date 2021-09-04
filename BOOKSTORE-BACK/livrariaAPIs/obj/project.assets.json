@@ -2504,11 +2504,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\afnnu\\source\\repos\\livrariaAPIs\\BackEnd\\livrariaAPIs\\livrariaAPIs.csproj",
+      "projectUniqueName": "C:\\Users\\afnnu\\source\\repos\\Bookstore\\BOOKSTORE-BACK\\livrariaAPIs\\livrariaAPIs.csproj",
       "projectName": "livrariaAPIs",
-      "projectPath": "C:\\Users\\afnnu\\source\\repos\\livrariaAPIs\\BackEnd\\livrariaAPIs\\livrariaAPIs.csproj",
+      "projectPath": "C:\\Users\\afnnu\\source\\repos\\Bookstore\\BOOKSTORE-BACK\\livrariaAPIs\\livrariaAPIs.csproj",
       "packagesPath": "C:\\Users\\afnnu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\afnnu\\source\\repos\\livrariaAPIs\\BackEnd\\livrariaAPIs\\obj\\",
+      "outputPath": "C:\\Users\\afnnu\\source\\repos\\Bookstore\\BOOKSTORE-BACK\\livrariaAPIs\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\afnnu\\AppData\\Roaming\\NuGet\\NuGet.Config",

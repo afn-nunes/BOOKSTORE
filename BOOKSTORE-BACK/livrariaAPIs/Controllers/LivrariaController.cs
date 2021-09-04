@@ -15,6 +15,7 @@ namespace livraria.Controllers
 
         public LivrariaController(ToDoContext context)
         {
+            
             _context = context;
             //produtos sendo adicionados através do post
             //_context.todoProducts.Add(new Produto { ID = "1", Nome = "Senhor do aneis - O retorno do rei", Preco = 49.90, Categoria = "Ficção", Img = "1", Quantidade = 10 });

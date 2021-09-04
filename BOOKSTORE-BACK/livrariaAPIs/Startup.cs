@@ -10,6 +10,7 @@ namespace livrariaAPIs
 {
     public class Startup
     {
+        readonly string corsPolicy = "_corsPolicy";
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -20,10 +21,20 @@ namespace livrariaAPIs
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
-            services.AddDbContext<ToDoContext>(options => options.UseInMemoryDatabase(databaseName:"ToDoProducts"));
-        }
 
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy(name: corsPolicy,
+                                  builder =>
+                                  {
+                                      builder.WithOrigins("http://localhost:4200");
+                                  });
+            });
+            
+            services.AddControllers();
+            services.AddDbContext<ToDoContext>(options => options.UseInMemoryDatabase(databaseName: "ToDoProducts"));
+        }
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
@@ -35,6 +46,8 @@ namespace livrariaAPIs
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors(corsPolicy);
 
             app.UseAuthorization();
 
