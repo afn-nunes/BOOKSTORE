@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>livrariaAPIs</name>
+    </assembly>
+    <members>
+        <member name="T:livraria.Controllers.LivrariaController">
+            <summary>
+            Controller da API
+            </summary>
+        </member>
+        <member name="F:livraria.Controllers.LivrariaController._context">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:livraria.Controllers.LivrariaController.Get">
+            <summary>
+            Este método retorna todos os produtos cadastrados
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:livraria.Controllers.LivrariaController.Get(System.Int32)">
+            <summary>
+            Este método retorna um produto específico por id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:livraria.Controllers.LivrariaController.PostItem(livrariaAPIs.Models.Produto)">
+            <summary>
+            Este método cadastra um novo produto
+            </summary>
+            <param name="produto"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

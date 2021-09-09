@@ -7,10 +7,17 @@ using System.Threading.Tasks;
 
 namespace livraria.Controllers
 {
+
+    /// <summary>
+    /// Controller da API
+    /// </summary>
     [Route("api/[controller]")]
     [ApiController]
     public class LivrariaController : ControllerBase
     {
+        /// <summary>
+        /// 
+        /// </summary>
         private readonly ToDoContext _context;
 
         public LivrariaController(ToDoContext context)
@@ -26,13 +33,21 @@ namespace livraria.Controllers
 
             //_context.SaveChanges();
         }
-        
+        /// <summary>
+        /// Este método retorna todos os produtos cadastrados
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]        
         public async Task<ActionResult<IEnumerable<Produto>>> Get()
         {
             return await _context.todoProducts.ToListAsync(); 
         }
 
+        /// <summary>
+        /// Este método retorna um produto específico por id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("{id}")]        
         public async Task<ActionResult<Produto>> Get(int id)
         {
@@ -45,6 +60,11 @@ namespace livraria.Controllers
             return Ok(item);
         }
 
+        /// <summary>
+        /// Este método cadastra um novo produto
+        /// </summary>
+        /// <param name="produto"></param>
+        /// <returns></returns>
         [HttpPost]        
         public async Task<ActionResult> PostItem(Produto produto)
         {

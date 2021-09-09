@@ -140,4 +140,10 @@ C:\Users\afnnu\source\repos\Bookstore\BOOKSTORE-BACK\livrariaAPIs\obj\Debug\netc
 C:\Users\afnnu\source\repos\Bookstore\BOOKSTORE-BACK\livrariaAPIs\obj\Debug\netcoreapp3.1\livrariaAPIs.dll
 C:\Users\afnnu\source\repos\Bookstore\BOOKSTORE-BACK\livrariaAPIs\obj\Debug\netcoreapp3.1\livrariaAPIs.pdb
 C:\Users\afnnu\source\repos\Bookstore\BOOKSTORE-BACK\livrariaAPIs\obj\Debug\netcoreapp3.1\livrariaAPIs.genruntimeconfig.cache
+C:\Users\afnnu\source\repos\Bookstore\BOOKSTORE-BACK\livrariaAPIs\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\afnnu\source\repos\Bookstore\BOOKSTORE-BACK\livrariaAPIs\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\afnnu\source\repos\Bookstore\BOOKSTORE-BACK\livrariaAPIs\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\afnnu\source\repos\Bookstore\BOOKSTORE-BACK\livrariaAPIs\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\afnnu\source\repos\Bookstore\BOOKSTORE-BACK\livrariaAPIs\obj\Debug\netcoreapp3.1\livrariaAPIs.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\afnnu\source\repos\Bookstore\BOOKSTORE-BACK\livrariaAPIs\bin\Debug\netcoreapp3.1\livrariaAPIs.xml
 C:\Users\afnnu\source\repos\Bookstore\BOOKSTORE-BACK\livrariaAPIs\obj\Debug\netcoreapp3.1\livrariaAPIs.csproj.AssemblyReference.cache
